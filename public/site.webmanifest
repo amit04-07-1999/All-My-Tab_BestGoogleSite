@@ -1,0 +1,19 @@
+{
+  "name": "AllMyTab",
+  "short_name": "AllMyTab",
+  "icons": [
+    {
+      "src": "/Favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/Favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#3C5DFF",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

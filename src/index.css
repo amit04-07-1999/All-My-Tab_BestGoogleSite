@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* style.css */
+html,
+body {
+  overflow: hidden; /* Hide scrollbars */
+  height: 100%;
+  font-size: small !important;
+}
+
+body {
+  overflow-y: scroll;
+  @apply font-sans;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.Toastify__toast-container {
+  backdrop-filter: none; /* Remove any background filter or blur effect */
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
